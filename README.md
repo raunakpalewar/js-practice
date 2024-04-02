@@ -93,9 +93,17 @@ This is JavaScript code for learning and concept building.
 
 > Functions can have parameters also.
 
-## JavaScript Events
-
-This constitutes my full notes. Please review them and feel free to add anything I might have missed. Also, I reorganized it to show in the README.md file.
-
-
 ## Javascript Events 
+
+> Event is created to trigger the working of any js function using html
+>
+> Types of Event :
+1. 'onchange'
+2. "onclick"
+3. "onmouseover"
+4. "onmouseout"
+5. "onmouseout"
+6. "onkeydown"
+7. "onload" ...etc
+
+
