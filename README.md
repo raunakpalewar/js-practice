@@ -59,7 +59,7 @@ This are the Java script code for learning and concept building
 
 
 
-### String concatenations
+#### String concatenations
     1. + is used to concatenate two strings it is also called concatenation operator
     2. if you put a number in quates then rest of the numbers will be treated as string and get concatenated not add (this property does not apply to the numbers written before and without quotes)
 
