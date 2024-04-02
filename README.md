@@ -81,15 +81,19 @@ This are the Java script code for learning and concept building
     b. array : written with square brackets 
         ex : cars =['tata','volvo','mahindra']
     c. date
+## JavaScript Functions
 
-## Javascript Functions
+> Block of code written to perform a particular task.
 
->Block of code written to perform a perticular task.
-<br>
-> syntax :
-    function functionName(){
-        //code
-    }
->function can have parameters also
+> Syntax:
+>
+> ```javascript
+> function functionName() {  
+>     //code  
+> }
+> ```
+
+> Function can have parameters also.
+
 
 ## Javascript Events 
