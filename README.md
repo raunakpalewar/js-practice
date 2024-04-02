@@ -84,11 +84,12 @@ This are the Java script code for learning and concept building
 
 ## Javascript Functions
 
->> Block of code written to perform a perticular task.
->> syntax :
+>Block of code written to perform a perticular task.
+<br>
+> syntax :
     function functionName(){
         //code
     }
->>function can have parameters also
+>function can have parameters also
 
 ## Javascript Events 
