@@ -59,19 +59,36 @@ This are the Java script code for learning and concept building
 
 
 
-#### String concatenations
-    1. + is used to concatenate two strings it is also called concatenation operator
-    2. if you put a number in quates then rest of the numbers will be treated as string and get concatenated not add (this property does not apply to the numbers written before and without quotes)
+### String concatenations
+1. + is used to concatenate two strings it is also called concatenation operator
+2. if you put a number in quates then rest of the numbers will be treated as string and get concatenated not add (this property does not apply to the numbers written before and without quotes)
+3. When adding a number and a string, JavaScript will treat the number as a string.
+
 
 ## Data Types in Javascript
 1. String
-2. Number
-3. Bigint
-4. Boolean
+2. Number : decimal and non decimal number , mainly all the numbes are stored as decimal number ex : 34 is stored as 34.00
+3. Bigint : all js numbers are stored in a 64 bit floating point format , bigint is used to store integers values that are too big
+4. Boolean : true, false
 5. Undefined
 6. Null
 7. Symbol
 8. Object : 
-    a. Object
-    b. array
+    a. Object : 
+        i. json like structure 
+        ii. it is writeen insied {} in a key value pair
+        iii. to access object value it is written in two ways objectName.key or objectName['key']
+    b. array : written with square brackets 
+        ex : cars =['tata','volvo','mahindra']
     c. date
+
+## Javascript Functions
+
+>> Block of code written to perform a perticular task.
+>> syntax :
+    function functionName(){
+        //code
+    }
+>>function can have parameters also
+
+## Javascript Events 
