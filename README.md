@@ -144,3 +144,269 @@ This is JavaScript code for learning and concept building.
 
 - to substitue a value in place of a variable then we can use ${} to substite the value it is also called string interpolation
 
+
+## JavaScript Arrays
+
+- Used to store multiple values in a single variable.
+- Can be written using square brackets `[]`.
+- Example: `let fruits = ['apple', 'banana', 'orange'];`
+
+### Array Methods
+
+1. `length`
+2. `push()`
+3. `pop()`
+4. `shift()`
+5. `unshift()`
+6. `indexOf()`
+7. `splice()`
+8. `slice()`
+9. `concat()`
+10. `reverse()`
+11. `sort()`
+
+## JavaScript Objects
+
+- Used to store keyed collections of various data and more complex entities.
+- Written inside curly brackets `{}` in a key-value pair.
+- Example: 
+    ```javascript
+    let person = {
+        name: 'John',
+        age: 30,
+        city: 'New York'
+    };
+    ```
+
+### Object Methods
+
+- `Object.keys()`
+- `Object.values()`
+- `Object.entries()`
+
+## JavaScript Math
+
+- Provides many methods for performing mathematical tasks.
+- Example: `Math.PI`, `Math.round()`, `Math.floor()`, `Math.ceil()`, `Math.random()`, etc.
+
+## JavaScript Random
+
+- Used to generate random numbers.
+- Example: `Math.random()`.
+
+## JavaScript If-Else
+
+- Used for decision-making in JavaScript.
+- Syntax:
+    ```javascript
+    if (condition) {
+        // code to be executed if condition is true
+    } else {
+        // code to be executed if condition is false
+    }
+    ```
+
+## JavaScript Loops
+
+- Used to repeatedly run a block of code.
+- Types: `for`, `while`, `do-while`.
+
+## JavaScript Switch
+
+- Used to perform different actions based on different conditions.
+- Syntax:
+    ```javascript
+    switch (expression) {
+        case value1:
+            // code to be executed if expression matches value1
+            break;
+        case value2:
+            // code to be executed if expression matches value2
+            break;
+        default:
+            // code to be executed if expression doesn't match any cases
+    }
+    ```
+
+## JavaScript Sets
+
+- Used to store unique values of any type.
+- Example: 
+    ```javascript
+    let mySet = new Set();
+    mySet.add(1);
+    mySet.add(2);
+    ```
+
+## JavaScript Maps
+
+- Used to store key-value pairs.
+- Example:
+    ```javascript
+    let myMap = new Map();
+    myMap.set('key1', 'value1');
+    myMap.set('key2', 'value2');
+    ```
+
+## JavaScript Classes
+
+- Introduced in ECMAScript 2015 (ES6).
+- Syntax:
+    ```javascript
+    class ClassName {
+        constructor() {
+            // constructor method
+        }
+        method1() {
+            // method1 definition
+        }
+        method2() {
+            // method2 definition
+        }
+    }
+    ```
+
+## JavaScript Arrow Function
+
+- Introduced in ECMAScript 2015 (ES6).
+- Provides a more concise syntax for writing function expressions.
+- Example: 
+    ```javascript
+    const add = (a, b) => a + b;
+    ```
+
+## jQuery
+
+- A fast, small, and feature-rich JavaScript library.
+- Simplifies things like HTML document traversal and manipulation, event handling, and animation.
+- Example:
+    ```javascript
+    $('button').click(function(){
+        $('p').hide();
+    });
+    ```
+
+## AJAX
+
+- Asynchronous JavaScript and XML.
+- Used to send and receive data asynchronously without reloading the web page.
+- Example:
+    ```javascript
+    $.ajax({
+        url: 'example.php',
+        success: function(result){
+            $('#div1').html(result);
+        }
+    });
+    ```
+
+## JavaScript Async
+
+- Allows JavaScript to execute asynchronous code.
+- Uses `async` and `await` keywords.
+- Example:
+    ```javascript
+    async function myFunction() {
+        let promise = new Promise((resolve, reject) => {
+            setTimeout(() => resolve("done!"), 1000)
+        });
+
+        let result = await promise; // wait until the promise resolves (*)
+        alert(result); // "done!"
+    }
+    ```
+
+## DOM Manipulation
+
+- Document Object Model (DOM) manipulation refers to changing the structure or style of an HTML document.
+- Example:
+    ```javascript
+    document.getElementById('demo').innerHTML = 'Hello, World!';
+    ```
+
+## JavaScript Error Handling
+
+- Used to handle errors that may occur in JavaScript code.
+- Types of errors: SyntaxError, ReferenceError, TypeError, etc.
+- Syntax:
+    ```javascript
+    try {
+        // code that may throw an error
+    } catch (error) {
+        // code to handle the error
+    }
+    ```
+
+## JavaScript Promises
+
+- Used for asynchronous programming in JavaScript.
+- Represents a value that may be available now, in the future, or never.
+- Syntax:
+    ```javascript
+    const myPromise = new Promise((resolve, reject) => {
+        // code to produce a result or an error
+    });
+
+    myPromise.then(result => {
+        // code to handle the successful result
+    }).catch(error => {
+        // code to handle the error
+    });
+    ```
+
+## JavaScript Generators
+
+- A special type of function in JavaScript that can be paused and resumed.
+- Used for asynchronous programming and iterating over large datasets.
+- Syntax:
+    ```javascript
+    function* myGenerator() {
+        yield 'value1';
+        yield 'value2';
+        // more yields...
+    }
+    ```
+
+## JavaScript Fetch API
+
+- Used to make network requests in JavaScript.
+- Provides a modern alternative to XMLHttpRequest.
+- Example:
+    ```javascript
+    fetch('https://api.example.com/data')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    ```
+
+## JavaScript Modules
+
+- Used to organize code into reusable components.
+- Encapsulate related code into a single file.
+- Supported natively in modern browsers and Node.js.
+- Syntax (ES6):
+    ```javascript
+    // Exporting module
+    export function myFunction() {
+        // code
+    }
+
+    // Importing module
+    import { myFunction } from './myModule.js';
+    ```
+
+## JavaScript Transpilers
+
+- Used to convert code from one programming language to another.
+- Example: Babel transpiles modern JavaScript code (ES6+) into older versions (ES5) for compatibility with older browsers.
+
+## JavaScript Bundlers
+
+- Used to bundle JavaScript files together for optimization and performance.
+- Example: Webpack bundles multiple JavaScript files into a single file for deployment.
+
+## JavaScript Templating Engines
+
+- Used to generate HTML markup dynamically from JavaScript data.
+- Example: Handlebars.js, Mustache.js, etc.
+
