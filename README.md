@@ -95,15 +95,52 @@ This is JavaScript code for learning and concept building.
 
 ## Javascript Events 
 
-> Event is created to trigger the working of any js function using html
->
-> Types of Event :
-1. 'onchange'
-2. "onclick"
-3. "onmouseover"
-4. "onmouseout"
-5. "onmouseout"
-6. "onkeydown"
-7. "onload" ...etc
+- Event is created to trigger the working of any js function using html
 
+- Types of Event :
+    1. 'onchange'
+    2. "onclick"
+    3. "onmouseover"
+    4. "onmouseout"
+    5. "onmouseout"
+    6. "onkeydown"
+    7. "onload" ...etc
+
+**Js Event Handler**
+
+- Event handlers can be used to handle and verify user input, user actions, and browser actions:
+
+1. Things that should be done every time a page loads
+2. Things that should be done when the page is closed
+3. Action that should be performed when a user clicks a button
+4. Content that should be verified when a user inputs data
+
+- Many different methods can be used to let JavaScript work with events:
+
+1. HTML event attributes can execute JavaScript code directly
+2. HTML event attributes can call JavaScript functions
+3. You can assign your own event handler functions to HTML elements
+4. You can prevent events from being sent or being handled
+
+## Javascript string
+
+1. used to store text
+2. can be written using ' or "
+
+- String Methods
+1. .lenght
+2. .charAt()
+3. .charCodeAt()
+4. .at()
+5. .slice()
+6. .substring()
+7. .substr()
+8. .toUpperCase() or .toLowerCase()
+9. .concat()
+10. .trim()
+11. .repeat()
+12. .replace()
+13. .split()
+
+- to substitue a value in place of a variable then we can use ${} to substite the value it is also called string interpolation
 
